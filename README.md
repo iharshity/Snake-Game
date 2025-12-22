@@ -60,6 +60,14 @@ The game includes score tracking, high score persistence, timer, smooth controls
   2. Open index.html in your browser
      (No server required)
 
+## 🌍 Live Demo
+
+  🎮 Play the Snake Game instantly in your browser — no downloads required.
+    
+   👉 **Live Game:** https://iharshity.github.io/Snake-Game/
+    
+   Open the link, click **Start Game**, and enjoy the classic Snake experience with smooth controls, score tracking, and a modern UI.
+
 ## 🛠️ Built With
 
   HTML5, 
