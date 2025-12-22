@@ -40,4 +40,36 @@ The game includes score tracking, high score persistence, timer, smooth controls
 ---
 
 ## 📂 Project Structure
+    snake-game/
+    │
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── README.md
 
+
+---
+
+## 🚀 Run Locally
+
+  1. Clone the repository
+     ```bash
+     git clone https://github.com/iharshity/Snake-Game.git
+  
+  
+  2. Open index.html in your browser
+     (No server required)
+
+## 🛠️ Built With
+
+  HTML5, 
+  CSS3, 
+  JavaScript (Vanilla)
+
+## 🙌 Author
+
+  Made with ❤️ by Siddharth
+
+## 📜 License
+
+  This project is open source and free to use.
