@@ -1,6 +1,6 @@
 # 🐍 Snake Game
 
-A modern, responsive **Snake Game** built using **HTML, CSS, and Vanilla JavaScript**.  
+A modern, responsive **Snake Game** built using **HTML, CSS, and JavaScript**.  
 The game includes score tracking, high score persistence, timer, smooth controls, and a clean UI.
 
 ---
@@ -12,7 +12,7 @@ The game includes score tracking, high score persistence, timer, smooth controls
 - Score & High Score (saved using `localStorage`)
 - Timer to track play duration
 - Wall & self-collision detection
-- Restart & Start game modal
+- Restart & Start game model
 - Modern UI with blur / glass effect
 - Responsive grid-based board
 
@@ -34,7 +34,7 @@ The game includes score tracking, high score persistence, timer, smooth controls
 - The board is generated dynamically using CSS Grid.
 - Snake movement is handled with a timed game loop.
 - Food spawns randomly inside the grid.
-- Each food eaten increases the score.
+- Each food eaten increases the score and length of snake.
 - High score is saved in the browser using `localStorage`.
 
 ---
@@ -72,11 +72,11 @@ The game includes score tracking, high score persistence, timer, smooth controls
 
   HTML5, 
   CSS3, 
-  JavaScript (Vanilla)
+  JavaScript
 
 ## 🙌 Author
 
-  Made with ❤️ by Siddharth
+  Made with ❤️ by Harshit✨
 
 ## 📜 License
 
