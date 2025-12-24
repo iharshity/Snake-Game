@@ -115,7 +115,7 @@ startButton.addEventListener("click", () => {
     clearInterval(timerIntervalId);
 
     modal.style.display = "none";
-    intervalId = setInterval(render, 300);
+    intervalId = setInterval(render, 200);
 
     timerIntervalId = setInterval(() => {
         let [min,sec] = time.split(":").map(Number);
@@ -153,7 +153,19 @@ function restartGame(){
     dir = "down";
     snake = [{x:1, y:3}];
     food = {x : Math.floor(Math.random()*rows), y : Math.floor(Math.random()*cols)};
-    intervalId = setInterval(render, 300);
+    intervalId = setInterval(render, 200);
+    timerIntervalId = setInterval(() => {
+        let [min,sec] = time.split(":").map(Number);
+
+        sec++;
+        if (sec === 60) {
+            min++;
+            sec = 0;
+        }
+
+        time = `${min}:${sec}`;
+        timeElement.innerText = time;
+    },1000);
 }
 
 
